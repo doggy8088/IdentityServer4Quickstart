@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B11EF53D-7DF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "src\IdentityServer\IdentityServer.csproj", "{7A15C94C-209C-4EB7-901B-D2638F319B15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\Api\Api.csproj", "{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{7A15C94C-209C-4EB7-901B-D2638F319B15}.Release|x64.Build.0 = Release|Any CPU
 		{7A15C94C-209C-4EB7-901B-D2638F319B15}.Release|x86.ActiveCfg = Release|Any CPU
 		{7A15C94C-209C-4EB7-901B-D2638F319B15}.Release|x86.Build.0 = Release|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Debug|x64.Build.0 = Debug|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Debug|x86.Build.0 = Debug|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Release|x64.ActiveCfg = Release|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Release|x64.Build.0 = Release|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7A15C94C-209C-4EB7-901B-D2638F319B15} = {B11EF53D-7DF3-4FA0-AFFF-24E02A29ED9F}
+		{5FD26BE2-CFB7-4F0E-A87B-6EDF96A3F4D2} = {B11EF53D-7DF3-4FA0-AFFF-24E02A29ED9F}
 	EndGlobalSection
 EndGlobal
